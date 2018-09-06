@@ -1,3 +1,14 @@
+  /////////////////////
+//       TI-Trash      //
+//                     //
+//       Autores:      //
+//   Tiago Goncalves   //
+//  Alexandre Salgado  //
+// ------------------- //
+//     com ajuda de    //
+// Dr. Fernando Moita  //
+  /////////////////////
+
 #include <HX711_ADC.h>
 
 //HX711 constructor (dout pin, sck pin)
@@ -34,7 +45,7 @@ void loop() {
 
   //CHECK SE O PROCESSO DE TARE FOI COMPLETO
   if (LoadCell.getTareStatus() == true) {
-    Serial.println("Tare complete");
+    Serial.println("Tare COMPLETO");
   }
 
 }
